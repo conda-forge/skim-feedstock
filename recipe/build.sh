@@ -11,7 +11,7 @@ cargo-bundle-licenses \
     --output THIRDPARTY.yml
 
 # build statically linked binary with Rust
-cargo install --bins --no-track --locked --root ${PREFIX} --path ${SRC_DIR}
+cargo install --bins --no-track --locked --root ${PREFIX} --path skim
 
 mkdir -p ${PREFIX}/share/${PKG_NAME}
 cp -r install ${PREFIX}/share/${PKG_NAME}
