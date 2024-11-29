@@ -1,5 +1,5 @@
 {% set name = "skim" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/lotabout/skim/archive/v{{ version }}.tar.gz
-  sha256: a0a9e0b5c79686330a1b24d2d146844e3d9d641af01a6cac6a5e8f9c1ea2a64e
+  sha256: 88d96ac8190d87daa33ee20263391927c00717cefbbc9b17e2693be1b96f8fea
 
 build:
   number: 0
