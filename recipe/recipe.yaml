@@ -1,5 +1,5 @@
 context:
-  version: "0.15.7"
+  version: "0.16.0"
 
 package:
   name: skim
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/lotabout/skim/archive/v${{ version }}.tar.gz
-  sha256: f7c405502e352a95f267a3c73e2a2897aeec20f6e4e146328780d2bdc085ec4d
+  sha256: dd596fdb57fc8f7e94ad240839d93b14b775d3be38e74293922c2e048ef13f15
 
 build:
   number: 0
