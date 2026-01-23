@@ -2,6 +2,7 @@
 
 set -o xtrace -o nounset -o pipefail -o errexit
 
+export RUSTC_BOOTSTRAP=1
 export CARGO_PROFILE_RELEASE_STRIP=symbols
 export CARGO_PROFILE_RELEASE_LTO=fat
 
