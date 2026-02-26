@@ -1,17 +1,19 @@
 context:
-  version: "2.0.2"
+  version: "3.5.0"
 
 package:
   name: skim
   version: ${{ version }}
 
 source:
-  url: https://github.com/lotabout/skim/archive/v${{ version }}.tar.gz
-  sha256: 0a174ce2fadac28ddbbeb7eb3fe3aec8a4aea4b3c7b830e270a67e612a358407
+  url: https://github.com/skim-rs/skim/archive/v${{ version }}.tar.gz
+  sha256: df0faf2530ce999c3ab64d8dcde71601f6c3381434aa30fdfd3f9fd6702b8840
 
 build:
   number: 0
-  skip: win
+  skip:
+    - win
+    - linux and ppc64le
 
 requirements:
   build:
@@ -30,8 +32,8 @@ about:
     - LICENSE
     - THIRDPARTY.yml
   summary: Fuzzy Finder in rust!
-  homepage: https://github.com/lotabout/skim
-  repository: https://github.com/lotabout/skim
+  homepage: https://github.com/skim-rs/skim
+  repository: https://github.com/skim-rs/skim
 
 extra:
   recipe-maintainers:
