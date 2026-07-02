@@ -1,5 +1,5 @@
 context:
-  version: "4.10.0"
+  version: "5.0.0"
 
 package:
   name: skim
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/skim-rs/skim/archive/v${{ version }}.tar.gz
-  sha256: 0f77826fe73b4ad69bc692bd3407156fec3ffde12b270472d933de13bf3bd1e7
+  sha256: ee6fad9bd4a9188aec8dbde2461a320603cec65da941b971dd7162632e2f5d9a
 
 build:
   number: 0
